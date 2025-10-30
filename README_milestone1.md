@@ -180,7 +180,7 @@ Similar to the StudentApp exercise, you will commit your code to a repository un
         On Windows:  `set FLASK_DEBUG=1 && set FLASK_APP=smile.py && python -m flask run`
         On Mac:  `export FLASK_DEBUG=1 && export FLASK_APP=smile.py && python -m flask run`
 
-* Open a browser (Chrome is recommended) and open the application frontend (i.e., URL 'http://localhost:5000/')
+* Open a browser (Chrome is recommended) and open the application frontend (i.e., URL 'http://localhost:3000/')
     At this point, the page should look like the following. The page will display the titles and timestamps of the stories that were included in the initial database in the starter file.
    
    <kbd>
@@ -272,7 +272,7 @@ The first page you'll build is the home page. This page will show all smiles pos
     3. Add the like count of the post. 
 
   You can create new post messages by repeating the above SQL ALchemy commands. 
-  When you open the main page on the browser (e.g., `http://localhost:5000/`), the page will look like the following. 
+  When you open the main page on the browser (e.g., `http://localhost:3000/`), the page will look like the following. 
 
   <kbd>
     <img src="README.d/milestone1_task2.png" width="900" border="2">
@@ -352,7 +352,7 @@ For this task you will edit `/app/static/css/main.css` in addition to the HTML t
       *  Add a class selector called `posttimestamp` to style the "*post timestamp*". Specify appropriate font styling and padding for the timestamp. Apply `posttimestamp` to the `<div>` element enclosing the "*post timestamp*". 
       *  Add a class selector called `likecount` to style the "*like count*". The alignment should be centered and font should be bold. Apply `likecount` to the `<div>` element enclosing the "*like count*". 
     
-    When you open the main page on the browser (i.e., `http://localhost:5000/`), the page will look like the following. You are welcome to style your page different than what is shown in the below image. As long as it is neat and organized, we will accept it.  
+    When you open the main page on the browser (i.e., `http://localhost:3000/`), the page will look like the following. You are welcome to style your page different than what is shown in the below image. As long as it is neat and organized, we will accept it.  
 
     <kbd><img src="README.d/milestone1_task4a.png" width="800" border="2"></kbd>
 
@@ -397,7 +397,7 @@ Make sure to commit your changes after completing each task. See the [How to Sub
     <i>**Note:** For simplicity, here we issue the `main.like` POST request in a basic HTML form element. You may alternatively create a simple wt-form element in the `index` route and render it here. (Similar to the `EmptyForm`  in the Student App  example). </i>
     <br>
 
-Open the main page `http://localhost:5000/`, click at a like button, and make sure that the like count is incremented. Since the like route redirects to `main.index` the page should reload with the updated content. In Milestone-3, we will re-visit "like" use case and re-implement it using JavaScript. 
+Open the main page `http://localhost:3000/`, click at a like button, and make sure that the like count is incremented. Since the like route redirects to `main.index` the page should reload with the updated content. In Milestone-3, we will re-visit "like" use case and re-implement it using JavaScript. 
 
 Make sure to commit your changes after completing each task. See the [How to Submit](#how-to-submit) section at the bottom of the page for the commit commands. Make sure that you are checked out to the `milestone1` branch in your repo before you commit.  
 
@@ -463,7 +463,7 @@ To accomplish this, we will do the following:
 
 4. Post a couple new stories in your app. 
 
-  * When you open the main page on the browser (i.e., `http://localhost:5000/`), the page will look like the following when the screen width is greater than 1200px.
+  * When you open the main page on the browser (i.e., `http://localhost:3000/`), the page will look like the following when the screen width is greater than 1200px.
 
     <kbd> <img src="README.d/milestone2_task2a.png" width="1000"  border="2"> </kbd>
 
