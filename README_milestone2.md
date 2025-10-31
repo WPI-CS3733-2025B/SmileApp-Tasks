@@ -121,7 +121,7 @@ In our Smile Portal app, the users will be able to associate some predefined tag
    ---   
 
    7. When the database is initialized, we would like to add some default tag names to the `Tag` table. 
-      * Add a SQLAlchemy event listener for  the `Major` table which will insert te below tag names to the database after it is created. See the `add_majors` function we defined in the StudentApp as an example. 
+      * Add a SQLAlchemy event listener for  the `Tag` table which will insert te below tag names to the database after it is created. See the `add_majors` function we defined in the StudentApp as an example. 
 
       ```Python
       tags = ['funny','inspiring', 'true-story', 'heartwarming', 'friendship']
