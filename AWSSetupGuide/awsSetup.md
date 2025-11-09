@@ -29,7 +29,7 @@ AWS requires a credit card for all accounts. Deviating from the guidelines in th
 
 3. Name your EC2 instance something that you will remember.
 4. Select "Amazon Linux" as the AMI, and continue to the next step.
-5. Make sure the instance type is set to t2.micro (this is VERY important. Any other instance type will result in immediate charges. )
+5. Make sure the instance type is set to t2.micro (or t3.micro is t2.micro is not available) - this is VERY important. Any other instance type will result in immediate charges. 
 6. Create a new key-pair. This is how you are going to SSH into your EC2 instance. When prompted, select the RSA type and .pem format, and then click on "create key pair". Save this key somewhere safe, as it will be required every time you need to deploy your code.
 7. In the network settings tab, select the following
     - Allow SSH traffic from anywhere
