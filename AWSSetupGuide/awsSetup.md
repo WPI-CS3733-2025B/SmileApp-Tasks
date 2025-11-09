@@ -66,7 +66,7 @@ AWS requires a credit card for all accounts. Deviating from the guidelines in th
 3. Locate the public ipv4 address for your instance and copy it.
 4. Windows users: Run the following command in powershell to install openssh:
 "Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0" (MacOS and Linux users do not need to do this)
-5. MacOs/Linux users: run "chmod go = [INSERT PATH TO .PEM FILE HERE]" (make sure to include a space around the equals sign)
+5. MacOs/Linux users: run "chmod 400 [INSERT PATH TO .PEM FILE HERE]" (make sure to include a space around the equals sign)
 6. Now, run the following command <code>ssh ec2-user@[IPV4 ADDRESS HERE] -i [FILE PATH TO .pem FILE HERE]</code>.  (surround path with quotes)
 7. You should now be able to ssh into your ec2 instance. You may get a question asking if you want to connect, just type yes. When you have connected, you will see an eagle and info on the AMI.
 
